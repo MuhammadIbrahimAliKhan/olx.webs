@@ -1,0 +1,318 @@
+/* ===================== GLOBAL RESET ===================== */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* ===================== NAVBAR ===================== */
+.navbarparent{
+    background-color: white;
+    border-bottom: 1px solid rgb(212, 211, 211);
+    position: sticky;
+    top: 0;
+}
+
+#navbar{
+    display: flex;
+    gap: 20px;
+}
+
+#olxlogo{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#country{
+    height: 50px;
+    width: 600px;
+    margin-top: 10px;
+    color: #002F34;
+    border: 0.2px solid #002F34;
+    border-radius: 8px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+/* ===================== NAVBAR SEARCH ===================== */
+#navbarsearch{
+    background-color: #002F34;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    color: #ffffff;
+    border: 1px solid #002F34;
+    height: 50px;
+    width: 900px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+#navbarsearch input{
+    width: 500px;
+    padding: 30px;
+    text-align: start;
+    font-size: 14px;
+}
+
+.end{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 20px;       
+}
+
+
+/* ===================== CATEGORY LIST ===================== */
+#list ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#all{
+    font-weight: 30px;
+    color: #002F34;
+}
+
+.option{
+    color: #002F34;
+}
+
+.option:hover{
+    color: #2354f5;
+    cursor: pointer;
+}
+
+
+/* ===================== CATEGORY ICON BOX ===================== */
+#box{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* ===================== PRODUCT LISTING ===================== */
+#phone{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+h1{
+    color: #002F34;
+    font-weight: 30px;
+    margin: 30px auto;
+    margin-left: 20px;
+}
+
+.phone{
+    border: 1px solid rgb(156, 156, 156);
+    height: 700px;
+    border-radius: 10px;
+}
+
+.phone img{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.phone p{
+    text-align: center;
+    color: #002F34;
+}
+
+.phone h4{
+    color: #9e9c9c;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+
+/* ===================== ADVERTISEMENT BANNER ===================== */
+.add2 img{
+    height: 250px;
+    width: 1000px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+
+/* ===================== CATEGORY ICON SIZES ===================== */
+#Mobiles{
+    height: 90px;
+    width: 90px;
+}
+
+#propertyforsale{
+    height: 90px;
+    width: 90px;
+}
+
+#bikes{
+    height: 90px;
+    width: 90px;
+}
+
+#jobs{
+    height: 90px;
+    width: 90px;
+}
+
+#vehicles{
+    height: 90px;
+    width: 90px;
+}
+
+#fashions{
+    height: 90px;
+    width: 90px;
+}
+
+#kids{
+    height: 90px;
+    width: 90px;
+}
+
+#animals{
+    height: 90px;
+    width: 90px;
+}
+
+#electronics{
+    height: 90px;
+    width: 90px;
+}
+
+
+/* ===================== BUSINESS SECTION ===================== */
+#business{
+    margin-top: 50px;
+    padding-left: 15%;
+}
+
+#house1{
+    border: 1px solid rgb(156, 156, 156);
+    height: 90px;
+    width: 90px;
+}
+
+
+/* ===================== APP DOWNLOAD SECTION ===================== */
+#Apps{
+    display: flex;
+    margin-top: 10px;
+    border-bottom: 10px solid rgb(0, 0, 0);
+    background-color: #d8d4d4;
+    padding: 20px;
+    gap: 150px;
+}
+
+#blue{
+    color: #2354f5;
+}
+
+#o{
+    height: 130px;
+    width: 130px;
+}
+
+#l{
+    height: 130px;
+    width: 130px;
+}
+
+#x{
+    height: 130px;
+    width: 130px;
+}
+
+#meow{
+    height: 130px;
+    width: 130px;
+}
+/* ===================== DARK MODE TOGGLE BUTTON ===================== */
+
+#darkToggle {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+#darkToggle:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* ===================== DARK MODE STYLES ===================== */
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Sections affected */
+body.dark-mode .categories,
+body.dark-mode #box,
+body.dark-mode #phone,
+body.dark-mode #Apps {
+    background-color: #1e1e1e;
+}
+
+/* Cards */
+body.dark-mode .phone {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Headings */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+    color: #ffffff;
+}
+/* ===================== NAVBAR SEARCH HOVER EFFECT ===================== */
+
+#navbarsearch {
+    background-color: #002F34;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    color: #ffffff;
+    border: 1px solid #002F34;
+    height: 50px;
+    width: 900px;
+    margin-top: 10px;
+    margin-right: 30px;
+
+    /* Animation properties */
+    transition: all 0.3s ease;
+}
+
+#navbarsearch:hover {
+    /* Slightly lighter background on hover */
+    background-color: #00464f;
+    /* Add subtle shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px); /* small lift effect */
+}
+#navbarsearch:hover {
+    cursor: pointer;
+}
